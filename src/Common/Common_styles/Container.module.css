@@ -1,11 +1,12 @@
 .container {
     border: 1px solid;
-    height: 100%;
+    height:auto;
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    background-color: inherit;
 }
 

@@ -1,6 +1,8 @@
 .skillBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: darkseagreen;
+    display: flex;
+    align-items: center;
 }
 
 .skillContainer {
@@ -14,9 +16,11 @@
 }
 
 .skills {
+    margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
     border: 1px solid;
-    width: 100%;
+    width: 80%;
+    background-color: lightgray;
 }

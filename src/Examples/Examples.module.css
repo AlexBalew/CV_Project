@@ -1,6 +1,8 @@
 .worksBlock {
-    height: 50vh;
+    min-height: 100vh;
     background-color: lightgrey;
+    display: flex;
+    align-items: center;
 }
 
 .worksContainer {
@@ -13,7 +15,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid;
     width: 100%;
 }
 
@@ -23,13 +24,13 @@
 }
 
 .example1 {
-
     flex-direction: column;
     text-align: center;
     background-image: url('https://www.photoshopsupply.com/wp-content/uploads/2020/03/old-canvas-texture.jpg');
     height: 41vh;
     border: 1px solid;
     width: 500px;
+    margin: 5px;
 }
 
 .example2 {
@@ -39,10 +40,11 @@
     height: 41vh;
     border: 1px solid;
     width: 500px;
+    margin: 5px;
 }
 
 .button {
-    margin-top: 30%;
+    margin-top: 20%;
     margin-bottom: 10%;
     width: 100px;
     background: darkslategrey;
