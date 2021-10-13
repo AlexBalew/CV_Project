@@ -19,6 +19,7 @@ function App() {
             <Hire/>
             <Contacts/>
             <Footer/>
+            <div></div>
         </div>
     );
 }
