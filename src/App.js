@@ -19,6 +19,7 @@ function App() {
             <Hire/>
             <Contacts/>
             <Footer/>
+            gbgf
         </div>
     );
 }
