@@ -17,3 +17,9 @@
     background-color: lightgray;
     text-align: center;
 }
+
+@media (max-width: 767px) {
+    .mainBlock {
+        background-color: khaki;
+    }
+}
